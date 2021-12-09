@@ -4,16 +4,8 @@
 
 Items are defined according to their priority levels: Foundation (60 criteria), Secure (39 criteria), Hardened (14 criteria) resulting in an overall 113 security requirements.
 
-Items are mapped to existing security labels as well as the Public Cloud Requirements (PCR). The following were not mapped as their definitions are too specific.
 
-R.42 R.22
-PCR.36
 
-In the shared responsibility model, GTS can delegate these controls execution while keeping an overall audit capability and regular reporting from delegates. Attribution still need to be defined.
-
-Unmapped: G-014, VNS-002 (unclear), HYS-001, HOS-002, AS-004, IAM-004, 
-
-Consider reading the mapping to older versions and referential only if you have performed an assessment to previous document, otherwise it can be ignored.
 
 ## (ID) Identify
 
@@ -381,7 +373,8 @@ Consider reading the mapping to older versions and referential only if you have 
 
 - **Managerial controls for the need-to-know**
 
-  Note: consider including managerial controls performed by CoE
+ 
+  
 
 	- The Need to Know principle shall be applied on top of least privileges by enforcing managerial controls. Audit trails can be used for this purpose.
 
